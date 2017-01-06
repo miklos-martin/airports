@@ -6,16 +6,10 @@ Fun with [spark] and [graphx].
 
 Looks up the nearest airports from a given airport by distance or by average flight time based on flight data in a csv.
 
-Download the data [here] and unzip it in the root directory, then just type
+Download the data [here] and unzip it in the root directory. Don't forget to bump the heap size a bit :) just type
 
 ```
-sbt run
-```
-
-Don't forget to bump the heap size a bit :)
-
-```
-SBT_OPTS="$SBT_OPTS -Xmx4G" sbt run
+sbt -J-Xmx4G run
 ```
 
 # TODO
