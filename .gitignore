@@ -1,0 +1,5 @@
+*.log
+target/
+metastore_db/
+spark-warehose/
+*.csv
