@@ -1,6 +1,8 @@
 # airports
 
-Fun with [spark].
+[![Build Status](https://travis-ci.org/miklos-martin/airports.svg?branch=master)](https://travis-ci.org/miklos-martin/airports)
+
+Fun with [spark] and [graphx].
 
 Looks up the nearest airports from a given airport by distance or by average flight time based on flight data in a csv.
 
@@ -30,4 +32,5 @@ Also, this might be very far from an optimal solution, it is in dire need of opt
 
 
 [spark]: http://spark.apache.org
+[graphx]: http://spark.apache.org/graphx/
 [here]: http://stat-computing.org/dataexpo/2009/2008.csv.bz2
