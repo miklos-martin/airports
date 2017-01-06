@@ -2,7 +2,7 @@
 
 Fun with [spark].
 
-Looks up the nearest airports from a given airport by distance or by average flight time based on flight data in csv.
+Looks up the nearest airports from a given airport by distance or by average flight time based on flight data in a csv.
 
 Download the data [here] and unzip it in the root directory, then just type
 
