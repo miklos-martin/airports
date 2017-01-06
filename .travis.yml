@@ -1,0 +1,15 @@
+language: scala
+scala:
+   - 2.11.8
+
+addons:
+  apt:
+    packages:
+      - wget
+      - bzip2
+
+before_script:
+  - wget http://stat-computing.org/dataexpo/2009/2008.csv.bz2
+  - bunzip 2008.csv.bz2
+
+script: sbt -J-Xmx4G ++$TRAVIS_SCALA_VERSION run
